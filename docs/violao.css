@@ -1,0 +1,117 @@
+#inicio-page {
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(images/guitar+background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(fonts/lemon_milk/LEMONMILK-Light.otf);
+}
+
+h2 {
+    font-family: lemon;
+}
+
+.hover-aulas {
+    text-decoration-thickness: 3px;
+    text-decoration: underline;
+}
+
+.container-violao {
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content-violao h2 {
+    background: #005480ff;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px 1px black;
+
+}
+
+.text-image {
+    
+    margin: 5px auto;
+    background-color: #005480ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 85vw;
+    border-radius: 50px;
+}
+
+.text-image img {
+    width: 80%;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+
+.image-title {
+    background-color: transparent;
+    transform: translateY(-100px);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.image-title p {
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 50px;
+
+}
+
+.image-title h2 {
+    margin-left: -50px;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+.content-violao img {
+    width: 85vw;
+    max-width: 100vw;
+    max-height: 500px;
+}
+
+.container2-violao {
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    width: 85vw;
+    margin-top: 20px;
+
+}
+
+
+.container2-violao img {
+    border-radius: 50px;
+}
+
+/* .container3-violao {
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    height: 180vh;
+    max-width: 85vw;
+    margin-bottom: 50px;
+    background-color: red;
+} */
