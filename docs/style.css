@@ -121,7 +121,7 @@ header button:hover{
 .mobile-menu-nav{
     z-index: 3;
     position: fixed;
-    transform: translate(87vw, 10vh);
+    transform: translate(86vw, 10vh);
 }
 
 .mobile-menu-nav button img{
