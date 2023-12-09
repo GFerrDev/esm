@@ -10,13 +10,23 @@ body {
     background-size: cover;
 }
 
-@font-face {
-    font-family: lemon;
-    src: url(fonts/lemon_milk/LEMONMILK-Light.otf);
+.container-violao, .container2-violao, footer{
+    transform: translateY(300px);
 }
 
-h2 {
+@font-face {
     font-family: lemon;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+.h2 {
+    font-family: lemon;
+    transform: translate(-50%, 280px);
+    margin-left: 50%;
+    text-align: center;
+    background: #005480ff;
+    width: 300px;
+    border-radius: 20px;
 }
 
 .hover-aulas {
@@ -25,78 +35,48 @@ h2 {
 }
 
 .container-violao {
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-}
-
-.content-violao h2 {
+    height: 115vh;
     background: #005480ff;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 150px;
-    border-radius: 50px;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px 1px black;
-
-}
-
-.text-image {
-    
-    margin: 5px auto;
-    background-color: #005480ff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 85vw;
-    border-radius: 50px;
-}
-
-.text-image img {
-    width: 80%;
-    padding-left: 25px;
-    border-radius: 50px;
-}
-
-.image-title {
-    background-color: transparent;
-    transform: translateY(-100px);
+    width: 90%;
     overflow: hidden;
-    justify-content: center;
+    transform: translate(-50%, 300px);
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: "imgg imgg pp";
+    border-radius: 20px;
 }
 
-.image-title p {
-    padding-right: 10px;
-    padding-top: 10px;
-    margin-left: 50px;
-
+.container-violao .img img{
+    width:95%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    margin-top: 40%;
+    grid-area: "imgg";
 }
 
-.image-title h2 {
-    margin-left: -50px;
-    background-color: transparent;
-    justify-content: center;
-
+.img{
+    margin-top: 5vh;
 }
 
-.content-violao img {
-    width: 85vw;
-    max-width: 100vw;
-    max-height: 500px;
+.img h2{
+    text-align: center;
 }
+
+.p{
+    left: 5%;
+    margin-top: 5vh;
+    width: 90%;
+    grid-area: "pp";
+}
+
 
 .container2-violao {
     margin: 0 auto;
     display: flex;
     height: 100vh;
-    width: 85vw;
+    width: 90%;
     margin-top: 20px;
 
 }
@@ -106,12 +86,6 @@ h2 {
     border-radius: 50px;
 }
 
-/* .container3-violao {
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    height: 180vh;
-    max-width: 85vw;
-    margin-bottom: 50px;
-    background-color: red;
-} */
+footer{
+    transform: translateY(360px);
+}
