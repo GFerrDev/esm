@@ -37,6 +37,10 @@ main p{
 	text-size: 1.3em;
 }
 
+#pp{
+	text-size: 1.5em;
+}
+
 .text-focus-in {
 	-webkit-animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
