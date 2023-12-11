@@ -24,7 +24,7 @@
                 <li> <a href="index.html">Início</a></li>
                 <li>
                     <div class="aulas">
-                        <button class="hover-aulas">Aulas</button>
+                        <button id="hover-aulas">Aulas</button>
                         <div class="menu-aulas">
                             <a href="canto.html">Canto</a>
                             <a href="violao.html">Violão</a>
@@ -33,7 +33,7 @@
                     </div>
                 </li>
                 <li> <a href="ped.html">Pedagogia</a></li>
-                <li> <a href="#administracao">Administração</a></li>
+                <li> <a href="adm.html">Administração</a></li>
                 <li> <a href="#cadastro">Cadastro</a></li>
             </ul>
 
@@ -43,7 +43,7 @@
         <ul>
             <button><img src="images/menu.png" alt=""></button>
             <div class="dropdown-nav">
-                <li> <a href="index.html" id="inicio-page">Início</a></li>
+                <li> <a href="index.html">Início</a></li>
                 <li>
                     <div class="aulas">
                         <button class="hover-aulas">Aulas</button>
@@ -65,33 +65,57 @@
     <!-- <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div> -->
 
     <main>
-        <div class="h2">
+        <div class="h2 surgir">
             <h2>Aulas de Violão</h2>
         </div>
-        <div class="container-violao">
+        <div class="container-violao surgir">
             <div class="img">
-                <h2>Conheça seu Instrutor</h2>
-                <img src="images/guitar.jpg">
+                <h2>Conheça seu Instrutor: Peninha</h2>
+                <div class="carousel">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="images/fotos-henrique/father+playing.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="images/fotos-henrique/father+playing1.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="images/fotos-henrique/father+playing3.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
             <div class="p">
-                
 
-                <p> Conheça a trajetória musical de Wanderley Alibio, mais conhecido como Peninha, um virtuoso
-                    do violão cuja história inspira gerações. O apelido "Peninha" não se deve apenas à sua
+
+                <p> <span>Wanderley Alibio</span>, mais conhecido como Peninha, um virtuoso
+                    do violão cuja história inspira gerações. O apelido <span>"Peninha"</span> não se deve apenas à sua
                     leveza física na infância, mas também à suavidade e destreza com que ele manipula as cordas de seu
                     instrumento.
 
+                    <br>
+                    <br>
                     O encanto de Peninha pela música despertou aos 17 anos, enquanto frequentava a Escola
                     Parobé, em Porto Alegre. Apesar de nunca ter acreditado plenamente em seu talento, ele se
                     entregava diariamente à prática do violão, revelando que a constância supera até mesmo dons
                     naturais. Sua persistência o levou a se apresentar em inúmeros bares pela cidade, marcando
                     sua presença na cena musical local.
-                </p>
-                <p> Peninha, ao longo dos anos, tornou-se um exemplo notável de dedicação e paixão pela música.
+
+                    <br>
+                    <br>
+                    Peninha, ao longo dos anos, tornou-se um exemplo notável de dedicação e paixão pela música.
                     Ele nunca abandonou o hábito de tocar e cantar, e essa prática contínua é a essência de seu
-                    sucesso. Com uma notável bagagem de experiência prática, acumulando 55 anos de vivência na
-                    arte musical, Peninha personifica a filosofia de Aristóteles: "Nós somos aquilo que fazemos
-                    repetidamente. Excelência, portanto, não é um ato, mas sim um hábito."
+                    sucesso. Com uma notável bagagem de experiência prática, acumulando 50 anos de vivência na
+                    arte musical, Peninha personifica a filosofia de Aristóteles: <span>"Nós somos aquilo que fazemos
+                        repetidamente. Excelência, portanto, não é um ato, mas sim um hábito."</span>
+
+
+                    <br>
+                    <br>
 
                     Ao seguir os passos de Peninha, descobrimos que a verdadeira realização está enraizada na
                     dedicação constante a nossas paixões. Seu legado musical ecoa como um lembrete inspirador de
@@ -102,44 +126,48 @@
         </div>
 
         <div class="container2-violao">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/fotos-henrique/father+playing.jpg" class="d-block w-100" alt="...">
+                        <video class="d-block w-100" controls>
+                            <source src="https://drive.google.com/uc?id=1SYBXqY2ozfEcZTL3LuhWZ3TMkVIT3oY3" type="video/mp4">
+                        </video>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/fotos-henrique/father+playing1.JPG" class="d-block w-100" alt="...">
+                        <video class="d-block w-100" controls>
+                            <source src="videos/so-para-o-seu-coracao.mp4" type="video/mp4">
+                        </video>
                     </div>
+                    <!-- <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="https://drive.google.com/uc?id=1ZURqMC9s3gGnO1fBbqptlD_b5BSgklZm" type="video/mp4">
+                        </video>
+                    </div> -->
                     <div class="carousel-item">
-                        <img src="images/fotos-henrique/father+playing3.JPG " class="d-block w-100" alt="...">
+                        <video class="d-block w-100" controls>
+                            <source src="https://drive.google.com/uc?id=15tJes_tb7oWlzapihCdWzL5iwsJS3bEd" type="video/mp4">
+                        </video>
                     </div>
+                   
+                    <!-- <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="https://drive.google.com/uc?id=12f94AepMZlWNHrDGsb0WMU1YgkZ5X51q" type="video/mp4">
+                        </video>
+                    </div> -->
+
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-
-        <!-- <div class="container3-violao">
-
-        </div> -->
-
-
     </main>
 
     <footer>
@@ -147,19 +175,18 @@
             <tr>
                 <td>
                     <form id="cadastro">
-                        <form id="cadastro">
-                            <h2>Faça sua cadastro</h2>
-                            <input type="text" required placeholder="Nome">
-                            <input type="text" required placeholder="E-mail">
-                            <input type="text" required placeholder="Telefone">
-                            <input type="text" placeholder="Mensagem" id="msg">
-                            <select name="aulas">
-                                <option value="teclado">Aula de teclado</option>
-                                <option value="violao">Aula de violão</option>
-                                <option value="canto">Aula de canto </option>
-                            </select>
-                            <button type="submit"> Enviar</button>
-                        </form>
+                        <h2>Faça seu cadastro</h2>
+                        <input type="text" required placeholder="Nome">
+                        <input type="text" required placeholder="E-mail">
+                        <input type="text" required placeholder="Telefone">
+                        <input type="text" placeholder="Mensagem" id="msg">
+                        <select name="aulas">
+                            <option value="teclado">Aula de teclado</option>
+                            <option value="violao">Aula de violão</option>
+                            <option value="canto">Aula de canto </option>
+                        </select>
+                        <button type="submit"> Enviar</button>
+                    </form>
                 </td>
                 <td>
                     <h2 id="contatos">Contatos & Endereço</h2>
